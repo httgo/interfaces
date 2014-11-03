@@ -2,7 +2,7 @@
 
 interface mappings
 
-##### [httpclient](https://github.com/httgo/interfaces/httpclient)
+##### [httpclient](https://github.com/httgo/interfaces/tree/master/httpclient)
 
     go get github.com/httgo/interfaces/httpclient
 
