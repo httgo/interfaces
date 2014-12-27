@@ -1,8 +1,12 @@
 # httgo/interfaces/httpclient
 
-[![GoDoc](https://godoc.org/github.com/httgo/interfaces/httpclient?status.svg)](http://godoc.org/github.com/httgo/interfaces/httpclient)
+[![GoDoc](https://godoc.org/gopkg.in/httgo/interfaces.v1/httpclient?status.svg)](http://godoc.org/gopkg.in/httgo/interfaces.v1/httpclient)
 
 `net/http` Client interface
+
+## Install
+
+    go get gopkg.in/httgo/interfaces.v1/httpclient
 
 ## License
 

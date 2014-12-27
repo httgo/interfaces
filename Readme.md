@@ -4,7 +4,7 @@ interface mappings
 
 ##### [httpclient](https://github.com/httgo/interfaces/tree/master/httpclient)
 
-    go get github.com/httgo/interfaces/httpclient
+    go get gopkg.in/httgo/interfaces.v1/httpclient
 
 ## License
 
