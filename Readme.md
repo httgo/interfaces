@@ -1,11 +1,36 @@
-# httgo/interfaces
+# interfaces
 
-interface mappings
+[![GoDoc](https://godoc.org/gopkg.in/httgo/interfaces.v2?status.svg)](http://godoc.org/gopkg.in/httgo/interfaces.v2)
 
-##### [httpclient](https://github.com/httgo/interfaces/tree/master/httpclient)
+`net/http` Client interface
 
-    go get gopkg.in/httgo/interfaces.v1/httpclient
+## Install
+
+    go get gopkg.in/httgo/interfaces.v2
+
+## Usage
+
+    type ApiClient struct {
+      C interfaces.HTTPClient
+    }
+
+    func NewClient(opts ...func(c *ApiClient)) *ApiClient {
+      c := &ApiClient{
+        C: http.DefaultClient,
+      }
+      for _, v := range opts {
+        v(c)
+      }
+      return c
+    }
+
+In your tests you can;
+
+    api := NewClient(func(c *ApiClient) {
+      c.C = &MyMockHttpClient{}
+    })
 
 ## License
 
 MIT
+
