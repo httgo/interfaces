@@ -1,12 +1,12 @@
 # interfaces
 
-[![GoDoc](https://godoc.org/gopkg.in/httgo/interfaces.v2?status.svg)](http://godoc.org/gopkg.in/httgo/interfaces.v2)
+[![GoDoc](https://godoc.org/gopkg.in/httgo/interfaces.v3?status.svg)](http://godoc.org/gopkg.in/httgo/interfaces.v3)
 
 `net/http` Client interface
 
 ## Install
 
-    go get gopkg.in/httgo/interfaces.v2
+    go get gopkg.in/httgo/interfaces.v3
 
 ## Usage
 
